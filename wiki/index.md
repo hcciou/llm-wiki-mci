@@ -32,7 +32,9 @@
 | [[檢傷準確度]] | 同一套 START 不同研究差很多（正確率 36% 至 0.73） | S02 |
 
 ## 產出（Query outputs）
-- `slides/outline.md`：簡報大綱 v1（14 張，待確認）
+- `slides/outline.md`：簡報大綱 v1（14 張，使用者已確認）
+- `slides/content.md`：內容稿 v3（每點標 Wiki 依據頁）
+- `slides/index.html`：教學 HTML 簡報（最終成果）
 
 ## 待解問題（跨頁）
 - 「15 人」門檻、「優先判定紅」：僅 S05
