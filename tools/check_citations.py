@@ -65,7 +65,7 @@ def en_score(body, src):
     return (1 - len(miss)/tot) if tot else 1.0, miss
 only = set(sys.argv[1:])
 n = low = 0
-for f in sorted(glob.glob("wiki/**/*.md", recursive=True)):
+for f in sorted(g for g in glob.glob("wiki/**/*.md", recursive=True) if not g.endswith("log.md")):
     for i, ln in enumerate(open(f, encoding="utf-8"), 1):
         cites = CITE.findall(ln)
         if not cites: continue

@@ -31,6 +31,9 @@
 | [[檢傷系統比較]] | START、MSTART、SALT、CareFlight、Sieve、JumpSTART 的順序與處置 | S03, S01, S05, S02 |
 | [[檢傷準確度]] | 同一套 START 不同研究差很多（正確率 36% 至 0.73） | S02 |
 
+## 產出（Query outputs）
+- `slides/outline.md`：簡報大綱 v1（14 張，待確認）
+
 ## 待解問題（跨頁）
 - 「15 人」門檻、「優先判定紅」：僅 S05
 - START 開發年份 1980（S03）vs 1983（S01）：未解
