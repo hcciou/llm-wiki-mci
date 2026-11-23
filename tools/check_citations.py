@@ -58,7 +58,7 @@ def en_score(body, src):
     body = re.sub(r"§\w+", "", body)
     # 引號內的中文翻譯不算；只取數字與英文 token
     nums = set(re.findall(r"\d+(?:\.\d+)?", body))
-    words = {w for w in re.findall(r"[A-Za-z][A-Za-z\-]{2,}", body)}
+    words = {w for w in re.findall(r"[A-Za-z][A-Za-z\-]{2,}", body)} - {"Wiki"}
     def has(t): return t.lower() in src.lower() or (t in ALIAS and ALIAS[t].lower() in src.lower())
     miss = [n for n in nums if not has(n)] + [w for w in words if not has(w)]
     tot = len(nums) + len(words)
@@ -75,7 +75,8 @@ for f in sorted(glob.glob("wiki/**/*.md", recursive=True)):
         body = re.sub(r"\[\[.*?\]\]", "", body)
         for sid in sids:
             if only and sid not in only: continue
-            src = " ".join(src_text(s, loc) for s, loc in cites if s == sid)
+            # 英文來源：同一行混引多個來源時，數字／術語可來自任一所引來源
+            src = " ".join(src_text(s, loc) for s, loc in cites if s == sid or LANG.get(sid) != "zh")
             n += 1
             sc, miss = (zh_score if LANG.get(sid) == "zh" else en_score)(body, src)
             if sc < (0.45 if LANG.get(sid) == "zh" else 1.0):

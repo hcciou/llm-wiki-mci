@@ -1,7 +1,7 @@
 ---
 title: START 檢傷法（Simple Triage and Rapid Treatment）
 type: concept
-sources: [S05, S01]
+sources: [S05, S01, S03]
 updated: 2026-11-23
 status: draft
 ---
@@ -13,7 +13,12 @@ status: draft
 
 ## 起源與定位
 - 目前是美國最常用的 MCI 檢傷系統〔S01 §START〕
-- 1983 年由加州 Hoag Hospital 與 Newport Beach Fire Department 人員開發，**設計給具備基本急救技能的救援者使用**（for rescuers with basic first-aid skills）〔S01 §START〕
+- 由加州 Hoag Hospital 與 Newport Beach Fire Department 人員開發，**設計給具備基本急救技能的救援者使用**（for rescuers with basic first-aid skills）〔S01 §START〕
+- 開發年份**來源衝突**：S01 寫 1983〔S01 §START〕；S03 寫 1980〔S03 p.2〕
+- 也用於加拿大與澳洲部分地區〔S03 p.2〕
+- 對象：8 歲以上成人〔S03 p.2〕
+- 每位傷患在 60 秒內完成，最好 30 秒〔S03 p.2〕；S05 寫「快速（1 分鐘）」〔S05 p.20〕，一致
+- 檢傷時唯一允許的處置：打開呼吸道、直接加壓止血〔S03 p.2〕；與 S05「治療（止血＋呼吸道）」一致〔S05 p.20〕
 
 ## 流程（依 S05 p.22 流程圖，已看圖確認）
 1. **能走（WALK）** → 綠，延後處理〔S05 p.22〕
@@ -39,12 +44,16 @@ status: draft
 - 黃（Delayed）：傷勢嚴重但不會立即危及生命〔S01 §START〕
 - 綠（Walking wounded）：輕傷〔S01 §START〕
 
+## 變體：MSTART
+- 因黑暗與寒冷環境下微血管充填無法反映循環，MSTART 去掉這一項〔S03 p.2〕
+- Smart 檢傷：若無法檢查微血管充填，改摸橈動脈〔S03 p.7〕
+
 ## 給外行人的記法（草稿，待簡報階段確認）
 - 走、呼吸、循環、意識：四個問題依序問，只要一關不過就是紅。（由 S05 p.22 歸納）
 
 ## 衝突與待確認
-- 「呼吸 > 30」的單位（每分鐘）S05、S01 都未寫，待 S03／S02。
+- ~~「呼吸 > 30」的單位~~ 已解決：每分鐘 30 次〔S03 p.10〕
 - START 的準確度：待 S02。
 
 ## 相關
-[[四色分類]]、[[檢傷分類]]、[[逆向檢傷]]、[[SALT]]、[[JumpSTART]]
+[[四色分類]]、[[檢傷分類]]、[[逆向檢傷]]、[[SALT]]、[[JumpSTART]]、[[檢傷系統比較]]
