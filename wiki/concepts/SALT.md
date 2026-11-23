@@ -25,7 +25,7 @@ status: draft
 ## 衝突與待確認
 - 縮寫中 T 的意思：S01 §Clinical 寫「treatment/triage」〔S01 §Clinical〕；S01 §SALT 寫「TREATMENT AND TRANSPORT」〔S01 §SALT〕；S03 寫「Treatment/Transport」〔S03 p.4〕。三處中兩處為 Treatment/Transport，Wiki 採此寫法並保留紀錄；S02 也寫 Treatment/Transport〔S02 p.2〕
 
-- 救命處置的一項：S03 寫「chest decompression」（胸腔減壓）〔S03 p.3〕、「needle thoracostomy」〔S03 p.5〕；S01 寫「needle decompression」〔S01 §SALT〕；**S02 寫「chest compression」（胸外按壓）**〔S02 p.3〕。一字之差意思完全不同，三比一，S02 很可能是筆誤，但不裁決
+- 救命處置的一項：S01 寫「needle decompression」（針刺減壓）〔S01 §SALT〕；S03 寫「needle thoracostomy」（針刺胸腔造口）〔S03 p.5〕；**S02 寫「chest compression」（胸外按壓）**〔S02 p.3〕。前兩者意思相同，S02 意思完全不同，二比一，S02 可能是筆誤，但不裁決
 
 ## 相關
 [[START]]、[[現場立即處置]]、[[檢傷分類]]、[[檢傷系統比較]]
