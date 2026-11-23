@@ -31,7 +31,7 @@ slides/              簡報與簡報大綱
 |---|---|---|---|
 | S01 | `raw/01 - EMS Mass Casualty Triage (Archived).md` | StatPearls：EMS Mass Casualty Triage（存檔版） | 教科書條目，START／SALT 的**二手**來源 |
 | S02 | `raw/02 - aaem-10-e32.pdf` | Bazyar et al. 2022，檢傷系統準確度系統性回顧 | 系統性回顧 |
-| S03 | `raw/03 - .pdf` | Bazyar et al. 2019，全球檢傷系統綜述 | 文獻回顧 |
+| S03 | `raw/03 - Triage Systems in Mass Casualty Incidents ... Worldwide Approach.pdf` | Bazyar et al. 2019，全球檢傷系統綜述 | 文獻回顧 |
 | S04 | `raw/04 - factors_associated_...review.pdf` | Alruqi et al. 2023，MCI 到院前時間延遲因素 | 系統性回顧 |
 | S05 | `raw/05 - 大傷傷患檢傷原則-教育部研習.pdf` | 教育部防災教育：大量傷患處置與檢傷分類 | 中文教學簡報，台灣用語 |
 
